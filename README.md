@@ -21,6 +21,8 @@ If you created a branch, but it does not contain essential files from `main`. He
 * `git checkout [branch name]`
 * `git rebase main`
 
+Now, you should have the up-to-date information
+
 ## CMake and Unit Testing
 CMake is is a simple tool used for designing, building and testing/running code.  
 To start, you need to first install `CMake`. If you are planning on using `hammer`, you can ignore this part and jump straight to **Code** section.  
