@@ -13,7 +13,7 @@
     * If you get an `Issue` response, follow the given feedback to fix your cloning/branching.
     * Add and commit your fixes, but make sure to include `fixes #<Issue Number>` in your commit  
 
-For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.
+For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.  
 
 ## CMake and Unit Testing
 CMake is is a simple tool used for designing, building and testing/running code.  
