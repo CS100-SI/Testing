@@ -32,28 +32,28 @@ ADD_EXECUTABLE(#[[Executable Name]]
 )
 ```
 You can have multiple `ADD_EXECUTABLE`'s within a `CMake`. 
-This is part of why `CMake` is so useful; a single `CMake` can compile multiple programs all at once.
+This is part of why `CMake` is so useful; a single `CMake` can compile multiple executables doing different things all at once.
 
 This is the most I'll give you regarding `CMake`. There's so much you can do with it, but this is essentially all you'll need for these sessions.  
 
 ### Testing Time
-When you cloned this repository, you also cloned a folder called `code`. This folder contains two `.h` files and a `test.cpp`. Below is what each of the files do.  
+When you cloned this repository, you also got two `.h` files and a `test.cpp`. Below is what each of the `.h` files do.  
 ```C
 ## Arithmetic.h ##
 
-Add(x, y)
+Add(x, y);
     Desc: Adds x and y together
     In: int, int
     Ret: int
-Sub(x, y)
+Sub(x, y);
     Desc: Subtracts y from x
     In: int, int
     Ret: int
-Mult(x, y)
+Mult(x, y);
     Desc: Multiplies x by y
     In: double, double
     Ret: double
-Div(x, y)
+Div(x, y);
     Divides x by y
     In: double, double
     Ret: double
