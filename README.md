@@ -4,14 +4,13 @@
 * Create a new branch and enter it
   * Name the branch with your first name and last name initial followed by `-main`
     * i.e. JohnT-main
-* Create a `main.cpp` in your branch
-  * Have it print your favorite hobby/pastime
-  * Add and commit your changes (keep the note to 15 char or less)
+* Create a `CMakeLists.txt` file in your branch
 * Push the branch on to the repo
 * Open a pull request in GitHub using the `Pull requests` tab and `New pull request`.
   * You have successfully done this practice if I **reject** the request without labeling an `Issue` to it.
-    * If you get an `Issue` response, follow the given feedback to fix your cloning/branching.
+    * If you get an `Issue` response (you can find this within your pull request), follow the given feedback to fix your cloning/branching.
     * Add and commit your fixes, but make sure to include `fixes #<Issue Number>` in your commit  
+        * The `Issue Number` can be found next to the Issue's title.
 
 For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.  
 
