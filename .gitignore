@@ -7,3 +7,7 @@ lib/
 ArithmeticSol.h
 LinkedListSol.h
 test_sample.cpp
+
+Arithmetic.h
+LinkedList.h
+test.cpp

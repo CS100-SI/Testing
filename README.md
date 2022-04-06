@@ -110,3 +110,5 @@ You will need to fill out the rest.
 If you installed `CMake` **on your own computer**, use `cmake .` instead of `cmake3 .`. 
 This is just a disparity between the version used in CS100 labs and the current `CMake` version.
 You'll still use `make` after.
+
+Also notice that you can put code in the Tests as you would a normal function. You can also have multiple `EXPECT_EQ` per test. Use this to your advantage, especially since `LinkedList.h` requires you to create and use an object as you normall would.
