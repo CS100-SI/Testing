@@ -10,11 +10,11 @@
 * Push the branch on to the repo
 * Open a pull request in GitHub using the `Pull requests` tab and `New pull request`.
   * You have successfully done this practice if I **reject** the request without labeling an `Issue` to it.
-    * If you get an `Isuse` response, follow the given feedback to fix your cloning/branching.
-    * Commit your fixes, but make sure to include
-  
+    * If you get an `Issue` response, follow the given feedback to fix your cloning/branching.
+    * Add and commit your fixes, but make sure to include `fixes #<Issue Number>` in your commit  
 
-For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.
+For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.  
+
 ## CMake and Unit Testing
 CMake is is a simple tool used for designing, building and testing/running code.  
 To start, you need to first install `CMake`. If you are planning on using `hammer`, you can ignore this part and jump straight to **Code** section.  
