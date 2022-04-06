@@ -12,7 +12,14 @@
     * Add and commit your fixes, but make sure to include `fixes #<Issue Number>` in your commit  
         * The `Issue Number` can be found next to the Issue's title.
 
-For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.  
+For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". 
+If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.
+
+If you created a branch, but it does not contain essential files from `main`. Here's what you can do:
+* `git checkout main`
+* `git fetch`
+* `git checkout [branch name]`
+* `git rebase main`
 
 ## CMake and Unit Testing
 CMake is is a simple tool used for designing, building and testing/running code.  
