@@ -4,7 +4,4 @@ CMakeCache.txt
 Makefile
 CMakeFiles
 lib/
-ArithmeticSol.h
-LinkedListSol.h
-test_sample.cpp
 test
